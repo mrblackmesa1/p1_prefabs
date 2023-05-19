@@ -1,5 +1,6 @@
 # Portal 1 Prefabs
-A collection of Portal 1 prefabs I have made or possible stolen from Valve (:
+A collection of Portal 1 prefabs I have made or taken from the official maps
+In the future I will accept user submitted prefabs to be added!
 
 ## Current prefabs:
 
