@@ -7,7 +7,7 @@ In the future I will accept user submitted prefabs to be added!
 **BTS:**
 Office ceiling light
 
-**CHABMER (chmb):**
+**CHAMBER (chmb):**
 Floor Button
 
 
