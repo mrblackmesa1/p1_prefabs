@@ -7,3 +7,11 @@ A collection of Portal 1 prefabs I have made or possible stolen from Valve (:
 Office ceiling light
 
 
+Please credit me if you use these!
+
+
+## Installation
+I personally recommend you move an entire folder such as: `prefabs_bts` folder into:
+ `C:\Program Files (x86)\Steam\steamapps\common\Portal\bin\Prefabs`
+ This is so in hammer you can easily select from where you want a prefab and don't have to scroll for ages!
+
