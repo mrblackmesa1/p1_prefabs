@@ -1,6 +1,8 @@
-# Portal 1 Prefabs
-A collection of Portal 1 prefabs I have made or taken from the official maps
-In the future I will accept user submitted prefabs to be added!
+# Aperture Escape Prefabs
+A collection of Portal 1 prefabs we have made for use in internal maps
+These ones are used internally for map macking purposes but we have decided to give them out so anyone can use thm.
+
+--PLEASE CREDIT IF YOU USE THEM
 
 ## Current prefabs:
 
