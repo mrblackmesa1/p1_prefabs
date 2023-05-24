@@ -13,6 +13,7 @@ Office ceiling light
 **CHAMBER (chmb):**
 Floor Button
 Timed Switcch
+chamberlock
 
 **GLOBAL (gbl):**
 Map Ents // Place 1 of them in your maps to have all the entities you need.
