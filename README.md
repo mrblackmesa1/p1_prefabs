@@ -1,6 +1,6 @@
 # Aperture Escape Prefabs
-A collection of Portal 1 prefabs we have made for use in internal maps
-Even if these are interally used prefabs, they have all the features you would expect from valve ones and more such as logic_relays for a majority of elements like buttons, switches, doors etc
+A collection of Portal 1 prefabs we have made for use in internal maps,
+These have improvements to valve ones such as including trigger_relays for most of the elements.
 
 ## --PLEASE CREDIT IF YOU USE THEM--
 
