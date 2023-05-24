@@ -22,3 +22,4 @@ I personally recommend you move an entire folder such as: `prefabs_bts` folder i
  `C:\Program Files (x86)\Steam\steamapps\common\Portal\bin\Prefabs`
  This is so in hammer you can easily select from where you want a prefab and don't have to scroll for ages!
 Of course you can still place all of them together, just look at the all_prefabs folder
+
