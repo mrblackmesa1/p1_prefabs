@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "9"
+	"mapversion" "10"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,7 +14,7 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "1"
+	"nGridSpacing" "4"
 }
 palette_plus
 {
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "9"
+	"mapversion" "10"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -664,7 +664,7 @@ entity
 	"SourceEntityName" "button&i_door"
 	"spawnflags" "48"
 	"targetname" "button&i_snd_dn"
-	"origin" "32.001 48 15"
+	"origin" "40 -56 40"
 	editor
 	{
 		"color" "220 30 220"
@@ -680,7 +680,7 @@ entity
 	"spawnflags" "0"
 	"StartDisabled" "0"
 	"targetname" "button&i_out"
-	"origin" "-34 50 15"
+	"origin" "-40 56 40"
 	editor
 	{
 		"color" "220 30 220"
@@ -760,7 +760,7 @@ entity
 	"SourceEntityName" "button&i_door"
 	"spawnflags" "48"
 	"targetname" "button&i_snd_up"
-	"origin" "48 48 15"
+	"origin" "55.999 -56 40"
 	editor
 	{
 		"color" "220 30 220"
@@ -823,7 +823,7 @@ entity
 	"spawnflags" "0"
 	"StartDisabled" "0"
 	"targetname" "button&i_in"
-	"origin" "-49.999 50 15"
+	"origin" "-55.999 56 40"
 	editor
 	{
 		"color" "220 30 220"
