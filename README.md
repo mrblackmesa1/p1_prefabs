@@ -12,15 +12,12 @@ Office ceiling light
 
 **CHAMBER (chmb):**
 Floor Button
-Timed Switcch
+Timed Switch
+Normal switch
 chamberlock
 
 **GLOBAL (gbl):**
 Map Ents // Place 1 of them in your maps to have all the entities you need.
 
 ## Installation
-I personally recommend you move an entire folder such as: `prefabs_bts` folder into:
- `C:\Program Files (x86)\Steam\steamapps\common\Portal\bin\Prefabs`
- This is so in hammer you can easily select from where you want a prefab and don't have to scroll for ages!
-Of course you can still place all of them together, just look at the all_prefabs folder
-
+Drag and drop each folder into portal/bin/prefabs or simply drag all the vmf's in unsorted into portal/bin/prefabs
