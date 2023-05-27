@@ -15,6 +15,7 @@ Floor Button
 Timed Switch
 Normal switch
 chamberlock
+Box Dropper
 
 **GLOBAL (gbl):**
 Map Ents // Place 1 of them in your maps to have all the entities you need.
