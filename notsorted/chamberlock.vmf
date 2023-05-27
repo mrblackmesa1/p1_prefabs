@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "8"
+	"mapversion" "9"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,7 +14,7 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "4"
+	"nGridSpacing" "8"
 }
 palette_plus
 {
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "8"
+	"mapversion" "9"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1385,7 +1385,7 @@ entity
 	"id" "656"
 	"classname" "info_lighting_relative"
 	"targetname" "chamberlock&i_lightingrelative"
-	"origin" "-32 64 64"
+	"origin" "56 64 72"
 	editor
 	{
 		"color" "220 30 220"
@@ -1406,7 +1406,7 @@ entity
 		"OnTrigger" "chamberlock&i_door_left,Close,,0,-1"
 		"OnTrigger" "chamberlock&i_door_right,Close,,0,-1"
 	}
-	"origin" "-32 80 80"
+	"origin" "-56 120 72"
 	editor
 	{
 		"color" "220 30 220"
@@ -1427,7 +1427,7 @@ entity
 		"OnTrigger" "chamberlock&i_door_right,Open,,0,-1"
 		"OnTrigger" "chamberlock&i_door_left,Open,,0,-1"
 	}
-	"origin" "-32 48 80"
+	"origin" "-56 8 72"
 	editor
 	{
 		"color" "220 30 220"
