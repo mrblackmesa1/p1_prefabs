@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "13"
+	"mapversion" "4"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "13"
+	"mapversion" "4"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -254,13 +254,15 @@ entity
 	"spawnpos" "0"
 	"speed" "100"
 	"unlocked_sentence" "0"
-	"wait" "2"
+	"wait" "4"
 	connections
 	{
 		"OnOpen" "switch&i,SetAnimation,down,0,-1"
 		"OnFullyOpen" "button&i_down,PlaySound,,0,-1"
+		"OnFullyOpen" "timer_ticktock&i,Enable,,0,-1"
 		"OnClose" "switch&i,SetAnimation,up,0,-1"
 		"OnFullyClosed" "button&i_up,PlaySound,,0,-1"
+		"OnFullyClosed" "timer_ticktock&i,Disable,,0,-1"
 		"OnFullyOpen" "button&i_pressed,Trigger,,0,-1"
 		"OnFullyClosed" "button&i_unpressed,Trigger,,0,-1"
 	}
@@ -393,6 +395,92 @@ entity
 }
 entity
 {
+	"id" "54"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "Portal.room1_TickTock"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "441"
+	"SourceEntityName" "switch&i"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "sound_ticktock&i"
+	"volstart" "0"
+	"origin" "24 24 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "46"
+	"classname" "logic_timer"
+	"RefireTime" "1"
+	"spawnflags" "0"
+	"StartDisabled" "1"
+	"targetname" "timer_ticktock&i"
+	"UseRandomTime" "0"
+	connections
+	{
+		"OnTimer" "sound_ticktock&i,PlaySound,,0,-1"
+	}
+	"origin" "24 24 40"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "36"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "Portal.button_up"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"SourceEntityName" "switch&i"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "button&i_up"
+	"volstart" "0"
+	"origin" "24 0 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
 	"id" "27"
 	"classname" "ambient_generic"
 	"cspinup" "0"
@@ -461,38 +549,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "36"
-	"classname" "ambient_generic"
-	"cspinup" "0"
-	"fadeinsecs" "0"
-	"fadeoutsecs" "0"
-	"health" "10"
-	"lfomodpitch" "0"
-	"lfomodvol" "0"
-	"lforate" "0"
-	"lfotype" "0"
-	"message" "Portal.button_up"
-	"pitch" "100"
-	"pitchstart" "100"
-	"preset" "0"
-	"radius" "1250"
-	"SourceEntityName" "switch&i"
-	"spawnflags" "48"
-	"spindown" "0"
-	"spinup" "0"
-	"targetname" "button&i_up"
-	"volstart" "0"
-	"origin" "24 0 64"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1000]"
 	}
 }
 cameras
