@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "10"
+	"mapversion" "12"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "10"
+	"mapversion" "12"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -680,6 +680,10 @@ entity
 	"spawnflags" "0"
 	"StartDisabled" "0"
 	"targetname" "button&i_out"
+	connections
+	{
+		"OnTrigger" "button&i_signage,SetTextureIndex,0,0,-1"
+	}
 	"origin" "-40 56 40"
 	editor
 	{
@@ -823,6 +827,10 @@ entity
 	"spawnflags" "0"
 	"StartDisabled" "0"
 	"targetname" "button&i_in"
+	connections
+	{
+		"OnTrigger" "button&i_signage,SetTextureIndex,1,0,-1"
+	}
 	"origin" "-55.999 56 40"
 	editor
 	{
@@ -1116,6 +1124,20 @@ entity
 	editor
 	{
 		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "232"
+	"classname" "env_texturetoggle"
+	"targetname" "button&i_signage"
+	"origin" "-56 -56 40"
+	editor
+	{
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
