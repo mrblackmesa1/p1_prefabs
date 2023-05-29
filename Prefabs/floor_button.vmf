@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "12"
+	"mapversion" "13"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "12"
+	"mapversion" "13"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -237,28 +237,13 @@ entity
 }
 entity
 {
-	"id" "187"
-	"classname" "info_overlay"
-	"angles" "0 180 0"
-	"BasisNormal" "0 0 1"
-	"BasisOrigin" "-48 48 8"
-	"BasisU" "-1 8.74228e-08 0"
-	"BasisV" "-8.74228e-08 -1 0"
-	"EndU" "1"
-	"EndV" "0"
-	"fademindist" "-1"
-	"material" "signage/overlay_button_accent"
-	"sides" "350 7051"
-	"StartU" "0"
-	"StartV" "1"
-	"uv0" "-16 -16 0"
-	"uv1" "-16 16 0"
-	"uv2" "16 16 0"
-	"uv3" "16 -16 0"
-	"origin" "-48 48 8"
+	"id" "232"
+	"classname" "env_texturetoggle"
+	"targetname" "button&i_signage"
+	"origin" "-56 -56 40"
 	editor
 	{
-		"color" "80 150 225"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
@@ -695,25 +680,25 @@ entity
 }
 entity
 {
-	"id" "41"
+	"id" "36"
 	"classname" "info_overlay"
-	"angles" "0 270 0"
+	"angles" "0 0 0"
 	"BasisNormal" "0 0 1"
-	"BasisOrigin" "-48 -48 8"
-	"BasisU" "-4.37114e-08 -1 0"
-	"BasisV" "1 -4.37114e-08 0"
+	"BasisOrigin" "48 -48 8"
+	"BasisU" "1 -1.06581e-14 0"
+	"BasisV" "1.06581e-14 1 0"
 	"EndU" "1"
 	"EndV" "0"
 	"fademindist" "-1"
 	"material" "signage/overlay_button_accent"
-	"sides" "350 7051"
+	"sides" "350"
 	"StartU" "0"
 	"StartV" "1"
 	"uv0" "-16 -16 0"
 	"uv1" "-16 16 0"
 	"uv2" "16 16 0"
 	"uv3" "16 -16 0"
-	"origin" "-48 -48 8"
+	"origin" "48 -48 8"
 	editor
 	{
 		"color" "80 150 225"
@@ -735,7 +720,7 @@ entity
 	"EndV" "0"
 	"fademindist" "-1"
 	"material" "signage/overlay_button_accent"
-	"sides" "350 7051"
+	"sides" "350"
 	"StartU" "0"
 	"StartV" "1"
 	"uv0" "-16 -16 0"
@@ -793,25 +778,25 @@ entity
 }
 entity
 {
-	"id" "36"
+	"id" "26"
 	"classname" "info_overlay"
-	"angles" "0 0 0"
+	"angles" "0 90 0"
 	"BasisNormal" "0 0 1"
-	"BasisOrigin" "48 -48 8"
-	"BasisU" "1 -1.06581e-14 0"
-	"BasisV" "1.06581e-14 1 0"
+	"BasisOrigin" "48 48 8"
+	"BasisU" "-4.37114e-08 1 0"
+	"BasisV" "-1 -4.37114e-08 0"
 	"EndU" "1"
 	"EndV" "0"
 	"fademindist" "-1"
 	"material" "signage/overlay_button_accent"
-	"sides" "350 7051"
+	"sides" "350"
 	"StartU" "0"
 	"StartV" "1"
 	"uv0" "-16 -16 0"
 	"uv1" "-16 16 0"
 	"uv2" "16 16 0"
 	"uv3" "16 -16 0"
-	"origin" "48 -48 8"
+	"origin" "48 48 8"
 	editor
 	{
 		"color" "80 150 225"
@@ -1073,71 +1058,28 @@ entity
 }
 entity
 {
-	"id" "26"
+	"id" "41"
 	"classname" "info_overlay"
-	"angles" "0 90 0"
+	"angles" "0 270 0"
 	"BasisNormal" "0 0 1"
-	"BasisOrigin" "48 48 8"
-	"BasisU" "-4.37114e-08 1 0"
-	"BasisV" "-1 -4.37114e-08 0"
+	"BasisOrigin" "-48 -48 8"
+	"BasisU" "-4.37114e-08 -1 0"
+	"BasisV" "1 -4.37114e-08 0"
 	"EndU" "1"
 	"EndV" "0"
 	"fademindist" "-1"
 	"material" "signage/overlay_button_accent"
-	"sides" "350 7051"
+	"sides" "350"
 	"StartU" "0"
 	"StartV" "1"
 	"uv0" "-16 -16 0"
 	"uv1" "-16 16 0"
 	"uv2" "16 16 0"
 	"uv3" "16 -16 0"
-	"origin" "48 48 8"
+	"origin" "-48 -48 8"
 	editor
 	{
 		"color" "80 150 225"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "182"
-	"classname" "info_overlay"
-	"angles" "0 90 0"
-	"BasisNormal" "0 0 1"
-	"BasisOrigin" "48 48 8"
-	"BasisU" "1.31134e-07 1 0"
-	"BasisV" "-1 1.31134e-07 0"
-	"EndU" "1"
-	"EndV" "0"
-	"fademindist" "-1"
-	"material" "signage/overlay_button_accent"
-	"sides" "350 7051"
-	"StartU" "0"
-	"StartV" "1"
-	"uv0" "-16 -16 0"
-	"uv1" "-16 16 0"
-	"uv2" "16 16 0"
-	"uv3" "16 -16 0"
-	"origin" "48 48 8"
-	editor
-	{
-		"color" "80 150 225"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "232"
-	"classname" "env_texturetoggle"
-	"targetname" "button&i_signage"
-	"origin" "-56 -56 40"
-	editor
-	{
-		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
