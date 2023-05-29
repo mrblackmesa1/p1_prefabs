@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "13"
+	"mapversion" "16"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "13"
+	"mapversion" "16"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -2750,8 +2750,8 @@ entity
 	"targetname" "box&i"
 	connections
 	{
-		"OnOutOfWorld" "!activator,Kill,,0,-1"
 		"OnOutOfWorld" "logic_drop_box&i,Trigger,,0,-1"
+		"OnUser1" "logic_drop_box&i,Trigger,,0,-1"
 	}
 	"origin" "112 -128 500.197"
 	editor
@@ -2815,7 +2815,7 @@ entity
 		"OnTrigger" "trigger_drop_new_box&i,Enable,,0,-1"
 		"OnTrigger" "stop_tube_plugging&i,Disable,,0,-1"
 	}
-	"origin" "40 -56 72"
+	"origin" "56 -72 56"
 	editor
 	{
 		"color" "220 30 220"
