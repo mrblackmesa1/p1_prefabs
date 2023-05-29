@@ -2,7 +2,7 @@
 #  Aperture Escape Prefabs:
 A collection of Portal 1 prefabs we have made for use in internal maps,
 These have improvements to valve ones such as including trigger_relays for most of the elements.
-##  --PLEASE CREDIT IF YOU USE THEM--
+##  --Please credit if you use (:--
 
 ##  Installation:
 Drag and drop each folder into portal/bin/prefabs or simply drag all the vmf's in unsorted into portal/bin/prefabs
@@ -12,7 +12,7 @@ Drag and drop each folder into portal/bin/prefabs or simply drag all the vmf's i
 
 ##  Current prefabs:
 **BTS:**
-Office ceiling light
+ - Office ceiling light
   
 **CHAMBER (chmb):**
  - Floor Button
@@ -20,6 +20,7 @@ Office ceiling light
  - Normal switch
  - chamberlock
  - Box Dropper
+ - 128u^2 fizzler
 
 **GLOBAL (gbl):**
  - Map Ents // Place 1 of them in your maps to have all the entities you need.
