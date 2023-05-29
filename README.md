@@ -2,7 +2,7 @@
 #  Aperture Escape Prefabs:
 A collection of Portal 1 prefabs we have made for use in internal maps,
 These have improvements to valve ones such as including trigger_relays for most of the elements.
-##  --PLEASE CREDIT IF YOU USE THEM--
+##  --Please credit if you use (:--
 
 ##  Installation:
 Drag and drop each folder into portal/bin/prefabs or simply drag all the vmf's in unsorted into portal/bin/prefabs
